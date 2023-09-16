@@ -68,7 +68,7 @@
 <p>Remember that only React files ending with <strong>.production.min.js</strong> are suitable for production.</p>
 
 ### What are async and defer? 
-<p>In JavaScript, <b>async</b> and <b>defer</b> are attributes that you can add to a <script> tag to control how the script is loaded and executed in relation to the HTML document. Here’s how they work:</p>
+<p>In JavaScript, <b>async</b> and <b>defer</b> are attributes that you can add to a <b><script></b> tag to control how the script is loaded and executed in relation to the HTML document. Here’s how they work:</p>
 <ul>
   <li><p><b>async:</b> When you use the async attribute, the script is downloaded asynchronously with the rest of the page without pausing the HTML parsing. Once the script is downloaded, the HTML parsing will be paused, the script’s execution will happen, and then HTML parsing will resume. The page and other scripts don’t wait for async scripts and async scripts also don’t wait for them. It is great for independent scripts and externally located scripts.</p></li>
   <li><p><b>defer:</b> The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. The script loads “in the background”, and then runs when the DOM is fully built. Deferred scripts maintain their relative order which means the first script will be loaded first while all others below it will have to wait.</p></li>
