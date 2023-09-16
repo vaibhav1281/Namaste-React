@@ -27,7 +27,7 @@ const parent = React.createElement(
                 "I'm an h1 tag"
             ),
             React.createElement(
-                "h1",
+                "h2",
                 {},
                 "I'm an h2 tag"
             )
