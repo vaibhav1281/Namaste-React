@@ -10,7 +10,7 @@
  * </div>
  */
 
-/** If we want to create Siblings, We have to pass Children as an Arrat */
+/** If we want to create Siblings, We have to pass Children as an Array */
 
 const parent = React.createElement(
     "div",
