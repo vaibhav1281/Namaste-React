@@ -5,7 +5,7 @@
 
 <h2>Step 2: Download required dependencies</h2>
 <h3>npm i -D parcel</h3>
-<p>This command installs the Parcel bundler as a development dependency, creating the node_modules directory and package-lock.json.</p>
+<p>This command installs the Parcel bundler as a development dependency, creating the <b>node_modules</b> directory and <b>package-lock.json</b>.</p>
 
 <h2>Step 3: Run the application using Parcel</h2>
 <h3>npx parcel index.html</h3>
