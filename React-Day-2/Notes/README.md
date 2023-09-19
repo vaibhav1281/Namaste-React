@@ -18,7 +18,7 @@
 <h3>.parcel-cache</h3>
 
 <h2>Step 5: Install React and ReactDOM</h2>
-<h3>npm install react</h3>
+<h3><code>npm install react</code></h3>
 <h3>npm i react-dom</h3>
 <p>These commands install React and ReactDOM as dependencies for your project.</p>
 
@@ -47,11 +47,11 @@
 
 <h3>BrowsersList Configuration</h3>
 <b>Configure BrowsersList by adding the following section in your package.json:</b>
-<pre>
+<code>
     "browserslist": [
         "last 2 Chrome versions",
         "last 2 Firefox versions",
         "last 2 versions"
     ]
-</pre>
+</code>
 
