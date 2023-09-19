@@ -29,14 +29,32 @@
 
 ### What is '.parcel-cache'?
 <p>The <b>.parcel-cache</b> folder is used by Parcel, a web application bundler, to store information about your project when it builds it. This allows Parcel to avoid having to <b>re-parse</b> and <b>re-analyze</b> everything from scratch when it rebuilds your project. This is a key reason why Parcel can be so fast in development mode.</p>
-<p>The <b>.parcel-cache</b> folder is beneficial for developers because it reduces the time it takes to build or rebuild a project, making the development workflow more efficient. However, it’s generally a good idea to add this folder to your <b>.gitignore</b> file (or equivalent) so that it is not committed in your repository. This is because the cache is a binary file that can be regenerated with a command like <b>.........</b>, and committing it would add a large number of unnecessary changes to your commit history</p>
+<p>The <b>.parcel-cache</b> folder is beneficial for developers because it reduces the time it takes to build or rebuild a project, making the development workflow more efficient. However, it’s generally a good idea to add this folder to your <b>.gitignore</b> file (or equivalent) so that it is not committed in your repository. This is because the cache is a binary file that can be regenerated with a command like <code>npx parcel build index.html</code>, and committing it would add a large number of unnecessary changes to your commit history.</p>
 
-
-### What is `npx' ?
-
+### What is 'npx' ?
+<p>npx stands for <b>Node Package Execute</b> and it comes with npm. When you installed npm above 5.2.0 version then automatically npx will be installed. It is an npm package runner that can execute any package that you want from the npm registry without even installing that package. This is particularly useful for single-use packages or for testing out a package before deciding to install it.</p>
+ <b>Key Features of npx:</b>
+    <ul>
+        <li>It can execute any package from the npm registry without installing it.</li>
+        <li>If a package isn't already installed, npx will install it automatically.</li>
+        <li>Packages used by npx are not installed globally, so you don't have to worry about pollution in the long term.</li>
+        <li>You can execute a locally installed package easily by typing: <code>npx your-package-name</code>.</li>
+    </ul>
+    <p>In summary, npx is a handy tool that complements npm, making it easier to run packages and manage dependencies hosted in the npm registry.</p>
 
 ### What is difference between 'dependencies' vs 'devDependencies'?
+<b></b>
+<ul>
+  <li>
+    <p><strong>dependencies:</strong> These are the packages that your application relies on to run properly. They are required for your production-ready site or app to work. This means they are necessary for the online version of your website or app that the audience experiences. They are installed on both: <code>npm install</code> from a directory that contains <code>package.json</code> and <code>npm install $package</code> on any other directory.</p>
+  </li>
 
+  <li>
+     <p><strong>devDependencies:</strong> These are packages used for development purposes, e.g., for running tests or transpiling your code. They are tools and utilities that assist in development and testing. They are only needed for local development and testing. They are also installed on <code>npm install</code> on a directory that contains <code>package.json</code>, unless you pass the <code>--production</code> flag. They are not installed on <code>npm install "$package"</code> on any other directory, unless you give it the <code>--dev</code> option. They are not installed transitively.</p>
+  </li>
+  
+</ul>
+<p>In summary, <strong>dependencies</strong> are needed for your application to function correctly, while <strong>devDependencies</strong> are only needed during the development process.</p>
 
 ### What is Tree Shaking?
 
