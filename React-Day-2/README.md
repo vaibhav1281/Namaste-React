@@ -57,13 +57,35 @@
 <p>In summary, <strong>dependencies</strong> are needed for your application to function correctly, while <strong>devDependencies</strong> are only needed during the development process.</p>
 
 ### What is Tree Shaking?
-
+<p>In Parcel, "Tree Shaking" is a process that statically analyzes the imports and exports of each module, and removes everything that isn't used. This is also known as <b>"dead code elimination"</b>. Tree shaking is supported for both static and dynamic imports, CommonJS and ES modules, and even across languages with CSS modules. When Parcel can determine which exports of a dynamically imported module you use, it will tree shake the unused exports from that module. This process helps in reducing the file sizes and initialization times of bundles considerably.</p>
 
 ### What is Hot Module Replacement?
-
+<p> With HMR, you can exchange, add, or remove modules while an application is running without a full page refresh. This is particularly useful during development as it allows you to see your changes in real time without losing your application state. This leads to a faster and more seamless development experience.</p>
 
 ### List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
-
+<h4>Here are my top 5 superpowers of Parcel:</h4>
+<ol>
+  <li> <strong>Zero Configuration: </strong>Parcel requires zero configuration to get started with.</li>
+  <li> <strong>Fast Bundling: </strong>Parcel is known for its fast bundling speed.</li>
+  <li><strong>Hot Module Replacement (HMR): </strong>Parcel supports HMR which allows modules to be updated at runtime without needing a full page refresh.</li>
+  <li><strong>Code Splitting: </strong>Parcel supports out-of-the-box code splitting.</li>
+  <li> <strong>Tree Shaking: </strong>Parcel supports tree shaking to remove unused code.</li>
+</ol>
+<h4>Now, let’s dive deeper into three of them:</h4>
+<ol>
+   <li>
+            <strong>Zero Configuration:</strong>
+            One of the most powerful features of Parcel is its zero-configuration nature. This means that you don't have to spend time setting up a complex build process with tools like webpack or rollup. You can just point Parcel at the entry point of your application, and it figures out the rest. This makes it incredibly easy to get started with, and you can focus more on writing your application rather than setting up your build process.
+        </li>
+        <li>
+            <strong>Fast Bundling:</strong>
+            Parcel uses worker processes to enable multicore compilation, and has a filesystem cache for fast rebuilds even after a restart. This means that your project builds quickly, making your development process smoother and more efficient.
+        </li>
+        <li>
+            <strong>Code Splitting: </strong>
+             Code splitting is a feature supported by Parcel that allows you to split your code into various bundles which can then be loaded on demand or in parallel. It can be used to achieve smaller bundles and control resource load prioritization which, if used correctly, can have a major impact on load time.
+        </li>
+</ol>
 
 ### What is .gitignore? What should we add and not add into it?
 
