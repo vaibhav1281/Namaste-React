@@ -7,5 +7,6 @@
 <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-1/README.md">Click Here To Read😊</a>
 ## Assignment 02 (Ignite Our App)📔
 <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md">Click Here To Read😊</a>
-
+## Assignment 03 (Laying The Foundation )📔 <sup>INCOMPLETE</sup>
+<a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md">Click Here To Read😊</a>
 
