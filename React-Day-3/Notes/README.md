@@ -15,9 +15,11 @@
 <h2>Creating JSX Heading</h2>
 <p>For single line of JSX code:</p>
 
-`
+```
+
 const jsxHeading = <h1>Heading Using JSX</h1>
-`
+
+```
 <p>For multiple lines of JSX code, we use Round Brackets</p>
 
 ```
@@ -53,6 +55,7 @@ root.render(jsxHeading);
 <h3>JSX Working</h3>
 
 ```
+
 JSX => React.createElement => React Element (JavaScript Object) => (Renders)
 
 ```
