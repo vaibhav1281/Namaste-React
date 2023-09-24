@@ -105,6 +105,7 @@ const heading = React.createElement(
     )
 );
 
+
 /**
 *   <div className="title">
 *       <h1></h1>
@@ -112,6 +113,7 @@ const heading = React.createElement(
 *       <h1></h1>
 *   </div>
 */
+
 const element = React.createElement(
     'div',
     { className: 'title' },
@@ -121,6 +123,7 @@ const element = React.createElement(
 );
 
 // Creating Same element using JSX
+
 const jsxElement = (
     <div className="title">
         <h1>Header 1 Using JSX</h1>
@@ -130,6 +133,7 @@ const jsxElement = (
 );
 
 // Create a functional component of the same with JSX
+
 const Element1 = () => {
     return(
         <div className="title">
@@ -143,10 +147,12 @@ const Element1 = () => {
 };
 
 // Component Composition
+
 const ComponentComposition = () => {
     return(
         <div>
             <h1>Here is the Component Composition</h1>
+            {heading}
             <Element1/>
             {element}
             {jsxElement}
