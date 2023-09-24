@@ -27,6 +27,9 @@ root.render(element);
 
 ```
 
+<h3>Output</h3>
+<img src="./OutputSS/Ans1.png.png"/>
+
 ### Q.1.1 Create the same element using JSX.
 
 ```
@@ -45,6 +48,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxElement);
 
 ```
+
+<h3>Output</h3>
+<img src="./OutputSS/Ans1.1.png"/>
 
 ### Q.1.2. Create a functional component of the same with JSX.
 
@@ -69,6 +75,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Element1/>);
 
 ```
+
+<h3>Output</h3>
+
+<img src="./OutputSS/Ans1.2.png.png"/>
 
 ### Q.1.3. Composition of Component (Add a component inside another)
 
@@ -164,3 +174,5 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<ComponentComposition/>);
 
 ```
+<h3>Output</h3>
+<img src="./OutputSS/Ans1.3.png"/>
