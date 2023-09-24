@@ -28,7 +28,7 @@ root.render(element);
 ```
 
 <h3>Output</h3>
-<img src="./OutputSS/Ans1.png.png"/>
+<img src="./OutputSS/Ans1.png"/>
 
 ### Q.1.1 Create the same element using JSX.
 
@@ -77,8 +77,7 @@ root.render(<Element1/>);
 ```
 
 <h3>Output</h3>
-
-<img src="./OutputSS/Ans1.2.png.png"/>
+<img src="./OutputSS/Ans1.2.png"/>
 
 ### Q.1.3. Composition of Component (Add a component inside another)
 
