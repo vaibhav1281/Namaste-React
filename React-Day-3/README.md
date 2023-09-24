@@ -238,5 +238,5 @@ root.render(<Heading/>)
 ```
 
 ## Output
-
+<img src="./OutputSS/Ans2.png"/>
 
