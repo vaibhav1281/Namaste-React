@@ -2,6 +2,8 @@
 ## Assignment 03
 ### Q.1. Create a Nested header Element using React.createElement(b1h2,h inside a div with class "title")
 
+### Code
+
 ```
 /**
 *   <div className="title">
@@ -32,6 +34,8 @@ root.render(element);
 
 ### Q.1.1 Create the same element using JSX.
 
+### Code
+
 ```
 import React from "react";
 import  ReactDOM  from "react-dom";
@@ -53,6 +57,8 @@ root.render(jsxElement);
 <img src="./OutputSS/Ans1.1.png"/>
 
 ### Q.1.2. Create a functional component of the same with JSX.
+
+### Code
 
 ```
 
@@ -80,6 +86,8 @@ root.render(<Element1/>);
 <img src="./OutputSS/Ans1.2.png"/>
 
 ### Q.1.3. Composition of Component (Add a component inside another)
+
+### Code
 
 ```
 import React from "react";
@@ -175,3 +183,60 @@ root.render(<ComponentComposition/>);
 ```
 <h3>Output</h3>
 <img src="./OutputSS/Ans1.3.png"/>
+
+<h1> Q.2. Create a Header Component from scratch using Functional Components with JSX
+    <ul>
+        <li>Add a Logo on left</li>
+        <li>Add a search bar in middle</li>
+        <li>Add User icon on right Add CSS to make it look nice</li>
+    </ul>
+</h1>    
+
+## Code 
+
+```
+import React from "react"
+import ReactDOM from "react-dom/client"
+import logo from "./images/logo.png"
+
+const Heading = () => {
+  return(
+    <div>
+      <div className="flex justify-between w-full h-[80px]">
+
+        <img className="w-[80px] h-[80px] ml-10" src={logo} alt="logo" />
+        
+        <div className="">
+          <ul className="flex flex-row space-x-10 text-lg mt-5 mr-10 font-semibold">
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contactus">Contact us</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div className="w-full h-10 flex items-center justify-center">
+        <input
+            type="text" 
+            name="" 
+            id="" 
+            placeholder="Search..." 
+            className="border border-gray-300 rounded py-2 px-4 w-[45%] mt-4"
+            
+        />
+      </div>
+
+
+    </div>
+  )
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Heading/>)
+```
+
+## Output
+
+
