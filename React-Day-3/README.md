@@ -1,6 +1,6 @@
 # React Day 3 (Laying The Foundation🚀)
 ## Assignment 03
-### Q.1. Create a Nested header Element using React.createElement(b1h2,h inside a div with class "title")
+### Q.1. Create a Nested header Element using React.createElement(h1,h2,h3 inside a div with class "title")
 
 ### Code
 
