@@ -1,5 +1,9 @@
-# React Day 2 (Ignite Our App🚀)
-## Assignment 02
+<div align="right"> 
+  
+## [Assignment 03 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md)
+</div>
+
+# Assignment 02
 ### What is NPM?
 <p>NPM does not stands for Node Package Manager. It is the world’s largest software library (registry) and also a software package manager and installer.</p>
 <p>NPM can manage dependencies. It can install all the dependencies of a project in one command line1. Dependencies are also defined in <b>package.json</b></p>
@@ -175,4 +179,7 @@
 
 
 
-
+<div align="right"> 
+  
+## [Assignment 03 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md)
+</div>
