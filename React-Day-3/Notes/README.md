@@ -1,3 +1,5 @@
+<a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/Notes/README.md">Previous Notes😊</a>
+
 <P>Till now to run our project we use the command <code>npx parcel index.html</code></p>
 <P><code>npx</code> means, we are executing <code>npm</code> package parcel, and we give the source file as <code>index.html</code></p>
 <P>Now, we create script,that will build our project, instead of writing <code>npx parcel index.html</code> again and again, we use our custom script to run the project</p>
