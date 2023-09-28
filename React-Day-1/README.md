@@ -1,5 +1,9 @@
-# React Day 1 (Inception)
-## Assignment 01
+<div align="right"> 
+  
+## [Assignment 02 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
+</div>
+  
+# Assignment 01
 ### What is Emmet?
 <p>Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code.</p>
 
@@ -74,3 +78,9 @@
   <li><p><b>defer:</b> The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. The script loads “in the background”, and then runs when the DOM is fully built. Deferred scripts maintain their relative order which means the first script will be loaded first while all others below it will have to wait.</p></li>
 </ul>
 <p>In summary, use <b>async</b> for scripts that can run independently and don’t require the DOM to be fully constructed, and use <b>defer</b> for scripts that need access to the fully parsed DOM and need to maintain the order of execution.</p>
+
+
+<div align="right"> 
+  
+## [Assignment 02 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
+</div>
