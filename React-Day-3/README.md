@@ -34,7 +34,7 @@ root.render(element);
 ```
 
 <h3>Output</h3>
-<img src="./OutputSS/Ans1.png"/>
+<img alt="Code's Output" src="./OutputSS/Ans1.png"/>
 
 ### Q.1.1 Create the same element using JSX.
 
@@ -58,7 +58,7 @@ root.render(jsxElement);
 ```
 
 <h3>Output</h3>
-<img src="./OutputSS/Ans1.1.png"/>
+<img alt="Code's Output" src="./OutputSS/Ans1.1.png"/>
 
 ### Q.1.2. Create a functional component of the same with JSX.
 
@@ -87,7 +87,7 @@ root.render(<Element1/>);
 ```
 
 <h3>Output</h3>
-<img src="./OutputSS/Ans1.2.png"/>
+<img alt="Code's Output" src="./OutputSS/Ans1.2.png"/>
 
 ### Q.1.3. Composition of Component (Add a component inside another)
 
@@ -186,7 +186,7 @@ root.render(<ComponentComposition/>);
 
 ```
 <h3>Output</h3>
-<img src="./OutputSS/Ans1.3.png"/>
+<img alt="Code's Output" src="./OutputSS/Ans1.3.png"/>
 
 <h1> Q.2. Create a Header Component from scratch using Functional Components with JSX
     <ul>
@@ -242,7 +242,7 @@ root.render(<Heading/>)
 ```
 
 ## Output
-<img src="./OutputSS/Ans2.png"/>
+<img alt="Code's Output" src="./OutputSS/Ans2.png"/>
 
 
 <div align="right"> 
