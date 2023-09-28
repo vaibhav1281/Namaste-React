@@ -4,7 +4,7 @@
 
 ## [Building a web app with Parcel📦](https://github.com/vaibhav1281/Namaste-React/blob/main/Building%20a%20web%20app%20with%20Parcel/README.md)
 
-## [Assignment 01 (Inception)📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-1/README.md)
+## [Assignments 📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-1/README.md)
 
 ## [Assignment 02 (Ignite Our App)📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
 
