@@ -6,8 +6,5 @@
 
 ## [Assignments 📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-1/README.md)
 
-## [Assignment 02 (Ignite Our App)📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
-
-## [Assignment 03 (Laying The Foundation )📔](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md)
 
 
