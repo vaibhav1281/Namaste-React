@@ -1,3 +1,6 @@
+<h3> <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/Notes/README.md">Next >></a> </h3>
+
+
 <h1>Steps to Create React App with Parcel 🚀</h1>
 <h2>Step 1: Initialize npm and create package.json</h2>
 <h3><code>npm init</code></h3>
@@ -55,3 +58,5 @@
     ]
 </code>
 
+
+ <h3> <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/Notes/README.md">Next >></a> </h3>
