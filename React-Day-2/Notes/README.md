@@ -1,4 +1,4 @@
- <h3 align="left"> <a href="">Previous <<</a> </h3>
+ <h3 align="right"> <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/Notes/README.md">Next >></a> </h3>
 
 
 <h1>Steps to Create React App with Parcel 🚀</h1>
