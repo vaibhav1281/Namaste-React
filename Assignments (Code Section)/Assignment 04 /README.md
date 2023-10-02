@@ -14,4 +14,4 @@
         -> Use Array.map to render all the restaurants
 ```
 
-### Build a AppLayout
+## Build a AppLayout
