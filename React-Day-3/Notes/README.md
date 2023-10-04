@@ -5,7 +5,7 @@
 <P>Now, we create script,that will build our project, instead of writing <code>npx parcel index.html</code> again and again, we use our custom script to run the project</p>
 <P>We'll create this script inside the <code>package.josn</code> file</p>
 
-```
+```js
  "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -17,14 +17,14 @@
 <h2>Creating JSX Heading</h2>
 <p>For single line of JSX code:</p>
 
-```
+```jsx
 
 const jsxHeading = <h1>Heading Using JSX</h1>
 
 ```
 <p>For multiple lines of JSX code, we use Round Brackets</p>
 
-```
+```jsx
 const jsxHeading = (
     <h1 className="head">
         Heading Using JSX
@@ -36,7 +36,7 @@ const jsxHeading = (
 
 <h3>Creating ReactElement using React</h3>
 
-```
+```jsx
 const heading = React.createElement(
   "h1",
   {id:"heading"},
@@ -48,7 +48,7 @@ root.render(heading);
 
 <h3>Creating ReactElement using JSX</h3>
 
-```
+```jsx
 const jsxHeading = <h1 id="heading">Heading Using JSX</h1> 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxHeading);
@@ -56,7 +56,7 @@ root.render(jsxHeading);
 
 <h3>JSX Working</h3>
 
-```
+```jsx
 
 JSX => React.createElement => React Element (JavaScript Object) => (Renders)
 
@@ -72,12 +72,12 @@ JSX => React.createElement => React Element (JavaScript Object) => (Renders)
 <h4>This is how Functional Component are created</h4>
 <p>When the code is single lined:</p>
 
-```
+```jsx
 const Heading = () => <h1>I am a functional component!</h1>
 ```
 <p>When there multiple lines:</p>
 
-```
+```jsx
 Const Heading = () => {
   return (
     <div>
@@ -89,7 +89,7 @@ Const Heading = () => {
 
 <h3>How To Render React Functional Component</h3>
 
-```
+```jsx
 const Element1 = () => {
     return(
         <div className="title">
@@ -109,7 +109,7 @@ root.render(<Element1/>);
 <h3>How We Can Render One Component Inside Another Component</h3>
 <p>This Process is called <b>Component Composition</b></p>
 
-```
+```jsx
 const Element1 = () => {
     return(
         <div className="title">
