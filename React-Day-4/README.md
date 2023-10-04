@@ -27,13 +27,13 @@
 ### Q-04. How can I write comments in JSX ?
 <p>In JSX, you can write comments using the following syntax:</p>
 
-```
+```jsx
 {/* This is a JSX comment */}
 ```
 <p>JSX comments begin and end with curly braces <code>{}</code>. Inside the curly braces, you start the comment with a forward slash and an asterisk <code>/*</code>, then write your comment, and finally close it with an asterisk and a forward slash <code>*/</code></p>
 <p>Here’s an example of how to use it in a component:</p>
 
-```
+```jsx
 function ExampleComponent() {
   return (
     <div>
@@ -59,19 +59,19 @@ function ExampleComponent() {
 
 <p>Here's an example of how you might use each:</p>
 
-<pre>
-// Using &lt;React.Fragment&gt;
-&lt;React.Fragment key={item.id}&gt;
-  &lt;ComponentA /&gt;
-  &lt;ComponentB /&gt;
-&lt;/React.Fragment&gt;
+```jsx
+// Using <React.Fragment>
+<React.Fragment key={item.id}>
+  <ComponentA />
+  <ComponentB />
+</React.Fragment>
 
-// Using &lt;&gt;
-&lt;&gt;
-  &lt;ComponentA /&gt;
-  &lt;ComponentB /&gt;
-&lt;/&gt;
-</pre>
+// Using <></>
+<>
+  <ComponentA />
+  <ComponentB />
+</>
+```
 
 <p>In the first example, we're able to pass a <code>key</code> prop to <code>React.Fragment</code>, which is necessary when rendering lists of components. In the second example, we're grouping <code>ComponentA</code> and <code>ComponentB</code> without adding an extra node to the DOM, but we can't pass any props.</p></br>
 
@@ -112,7 +112,7 @@ function ExampleComponent() {
 <p>1. <strong>There are two ways to use props in a React app :</strong></p>
 <p><strong>Without destructuring: </strong>Here, you define props without destructuring. For example:</p>
 
-```
+```jsx
 function Course (props) {
 
    return <div>{props.courseName}</div>
@@ -122,7 +122,7 @@ function Course (props) {
 ```
 <p>2. <strong>With destructuring: </strong> Here, you define props as a destructuring argument. For example:</p>
 
-```
+```jsx
 function Course ({ courseName }) {
 
    return <div>{courseName}</div>
