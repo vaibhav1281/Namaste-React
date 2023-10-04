@@ -8,7 +8,7 @@
 <h3>How we can do:</h3>
 <p>Below we passed the "props" to RestaurantCard component</p>
 
-```
+```jsx
 
 const Body = () => {
   return(
@@ -44,7 +44,7 @@ const Body = () => {
 
 <h3>NOw, React will take all the props/properties and warp inside an object and it will pass over to the other component like this:</h3>
 
-```
+```jsx
  //                    ⬇⬇️⬇️⬇
 const RestaurantCard = (props) =>{
   return(
@@ -64,7 +64,7 @@ const RestaurantCard = (props) =>{
 
 <h3>Complete code with styling</h3>
 
-```
+```jsx
 
 //                    ⬇⬇️⬇️⬇
 const RestaurantCard = (props) =>{
@@ -127,7 +127,7 @@ const Body = () => {
 ```
 <h2>Or</h2><h3>We can do <code>Destructuring on fly</code> like this:</h3>
 
-```
+```jsx
                       // Destructuring⬇⬇️⬇️⬇
 const RestaurantCard = ({name,cuisines,stars,time}) =>{
   return(
@@ -148,7 +148,7 @@ const RestaurantCard = ({name,cuisines,stars,time}) =>{
 
 <h3>Complete code with styling using Destructuring</h3>
 
-```
+```jsx
                    //          ⬇⬇️⬇️⬇
 const RestaurantCard = ({name,cuisines,stars,time}) =>{
   return(
@@ -207,7 +207,7 @@ const Body = () => {
 
 <h2>OR Like this</h2>
 
-```
+```jsx
 const RestaurantCard = (props) =>{
 
   <!-- We can also do like this ⬇️ -->
@@ -269,7 +269,7 @@ const Body = () => {
 <h1>What if we have large amount of data in form of array/list, then how we use it</h1>
 <h3>The Data is ⬇️⬇️</h3>
 
-```
+```jsx
 const resList = [
   {
     "info": {
@@ -487,7 +487,7 @@ const resList = [
 
 <h2>This is how we pass the data in Re-usable Component</h2>
 
-```
+```jsx
 
 //                      ⬇️⬇️
 const RestaurantCard = (props) =>{
@@ -512,7 +512,7 @@ const RestaurantCard = (props) =>{
 
 <h2>And this is how we use the Data</h2>
 
-```
+```jsx
 const Body = () => {
   return(
     <div className="body w-11/10 flex flex-col p-[10px]">
