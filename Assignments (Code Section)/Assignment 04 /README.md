@@ -1,5 +1,5 @@
 # Assignment 04 (Code)
-```
+```jsx
  Build a Food Ordering App
   -> Think of a cool name for your app
   -> Build a AppLayout
@@ -15,7 +15,7 @@
 ```
 
 ## Build a AppLayout
-```
+```jsx
 const AppLayout = () =>{
     return(
         <div>
@@ -32,7 +32,7 @@ const AppLayout = () =>{
 ```
 
 ## Build a Header Component with Logo & Nav Items & Cart
-```
+```jsx
 const Header =() => {
     return(
         <div className="w-full relative flex flex-wrap">
@@ -76,7 +76,7 @@ const Header =() => {
 ```
 
 ## Build a Body Component
-```
+```jsx
 const Body = () => {
     return (
         <div className="flex flex-wrap w-full">
@@ -111,7 +111,7 @@ const Body = () => {
 ```
 
 ## Build RestaurantCard Component
-```
+```jsx
 const RestaurantCard = (props) =>{
     const {restData} = props;
     const {name,costForTwo,cuisines,avgRating,areaName} = restData?.info;
@@ -146,7 +146,7 @@ const RestaurantCard = (props) =>{
 ```
 
 ## Build RestaurantList Component
-```
+```jsx
 const RestaurantList = [
     {
         "info": {
