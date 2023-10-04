@@ -8,7 +8,7 @@
 
 ### Code
 
-```
+```jsx
 /**
 *   <div className="title">
 *       <h1>Header 1</h1>
@@ -40,7 +40,7 @@ root.render(element);
 
 ### Code
 
-```
+```jsx
 import React from "react";
 import  ReactDOM  from "react-dom";
 
@@ -64,7 +64,7 @@ root.render(jsxElement);
 
 ### Code
 
-```
+```jsx
 
 import React from "react";
 import  ReactDOM  from "react-dom";
@@ -93,7 +93,7 @@ root.render(<Element1/>);
 
 ### Code
 
-```
+```jsx
 import React from "react";
 import  ReactDOM  from "react-dom";
 
@@ -198,7 +198,7 @@ root.render(<ComponentComposition/>);
 
 ## Code 
 
-```
+```jsx
 import React from "react"
 import ReactDOM from "react-dom/client"
 import logo from "./images/logo.png"
