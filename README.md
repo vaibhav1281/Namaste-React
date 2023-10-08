@@ -7,7 +7,7 @@ If you find this repository helpful or inspiring, please consider giving it a �
 2 | [Igniting our App](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-2) | npm, npx, Parcel, Tree SHaking, HMR...  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md) | [Notes](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-2/Notes) 
 3 | [Laying the foundation](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-3) | JSX, React Element, React Component...  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md) | [Notes](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/Notes/README.md) 
 4 | [Talk is cheap, show me code](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-4) | Virtual DOM, Reconciliation, React Fiber, Props, Config Driven UI..  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-4/README.md) | [Notes](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-4/Notes/README.md) 
-5 | Let's get Hooked |Named & Default export, React Hooks, useState Hook...  | [Assignment]() | [Notes]() 
+5 | Let's get Hooked |Named & Default export, React Hooks, useState Hook...  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-5/README.md) | [Notes]() 
 6 | Exploring the world❌ |  | [Assignment]() | [Notes]() 
 7 | Finding the path❌ |  | [Assignment]() | [Notes]() 
 8 | Let's get Classy❌ |  | [Assignment]() | [Notes]() 
