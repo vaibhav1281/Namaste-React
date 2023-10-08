@@ -1,7 +1,4 @@
-<div align="right"> 
-  
-## [Assignment 02 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
-</div>
+
   
 # Assignment 01
 ### What is Emmet?
@@ -80,7 +77,3 @@
 <p>In summary, use <b>async</b> for scripts that can run independently and don’t require the DOM to be fully constructed, and use <b>defer</b> for scripts that need access to the fully parsed DOM and need to maintain the order of execution.</p>
 
 
-<div align="right"> 
-  
-## [Assignment 02 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/README.md)
-</div>
