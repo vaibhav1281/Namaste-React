@@ -1,7 +1,4 @@
-<div align="right"> 
-  
-## [Assignment 03 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md)
-</div>
+
 
 # Assignment 02
 ### What is NPM?
@@ -178,8 +175,3 @@
     <p>These symbols provide flexibility in managing dependencies while also ensuring that new updates don't break your project.</p>
 
 
-
-<div align="right"> 
-  
-## [Assignment 03 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-3/README.md)
-</div>
