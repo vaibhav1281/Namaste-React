@@ -1,4 +1,4 @@
-<h3> <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-2/Notes/README.md">Previous<< </a> </h3>
+
 
 <P>Till now to run our project we use the command <code>npx parcel index.html</code></p>
 <P><code>npx</code> means, we are executing <code>npm</code> package parcel, and we give the source file as <code>index.html</code></p>
@@ -143,4 +143,4 @@ root.render(<ComponentComposition/>);
 <p></p>
 
 
- <h3 align="right"> <a href="https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-4/Notes/README.md">Next >></a> </h3>
+
