@@ -1,7 +1,4 @@
-<div align="right"> 
-  
-## [Assignment 04 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-4/README.md)
-</div>
+
 
 # Assignment 03
 ### Q.1. Create a Nested header Element using React.createElement(h1,h2,h3 inside a div with class "title")
@@ -245,7 +242,3 @@ root.render(<Heading/>)
 <img alt="Code's Output" src="./OutputSS/Ans2.png"/>
 
 
-<div align="right"> 
-  
-## [Assignment 04 >>](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-4/README.md)
-</div>
