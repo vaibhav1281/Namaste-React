@@ -10,7 +10,7 @@ If you find this repository helpful or inspiring, please consider giving it a �
 5 | [Let's get Hooked](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-5) | [Named & Default export](https://react.dev/learn/importing-and-exporting-components#exporting-and-importing-a-component), [React Hooks...](https://react.dev/reference/react)  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-5/README.md) |  
 6 | [Exploring the world](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-6) | [useEffect](https://react.dev/reference/react/useEffect), Shimmer UI | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-6/README.md) | [Notes](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-6/React%20Day%206.pdf) 
 7 | [Finding the path](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-7) | [Server-side and Client-side Routing](https://medium.com/@wilbo/server-side-vs-client-side-routing-71d710e9227f)  | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-7/README.md) | Notes 
-8 | Let's get Classy❌ |  | [Assignment]() | [Notes]() 
+8 | [Let's get Classy](https://github.com/vaibhav1281/Namaste-React/tree/main/React-Day-8) | [React Router](https://reactrouter.com/en/main/routers/create-browser-router), [react-lifecycle](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) | [Assignment](https://github.com/vaibhav1281/Namaste-React/blob/main/React-Day-8/README.md) | Notes 
 9 | Optimising our App❌ |  | [Assignment]() | [Notes]() 
 10 | JO dikhta hai, vo bikta hai❌ |  | [Assignment]() | [Notes]() 
 11 | Data is new Oil❌ |  | [Assignment]() | [Notes]() 
