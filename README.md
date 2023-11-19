@@ -19,3 +19,11 @@ If you find this repository helpful or inspiring, please consider giving it a �
 14 | Inception❌ |  | [Assignment]() | [Notes]() 
 15 | Inception❌ |  | [Assignment]() | [Notes]() 
 16 | Inception❌ |  | [Assignment]() | [Notes]() 
+
+
+
+->  [Parcel](https://parceljs.org/getting-started/webapp/)
+
+->  [React with Parcel](https://parceljs.org/recipes/react/)
+
+->  [Tailwind](https://tailwindcss.com/docs/guides/parcel)
