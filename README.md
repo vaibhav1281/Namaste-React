@@ -1,5 +1,8 @@
 # React 🚀
-If you find this repository helpful or inspiring, please consider giving it a ⭐. Your support is greatly appreciated! 😊
+If you find this repository helpful or inspiring, please consider giving it a ⭐. Your support is greatly appreciated! 😊 <br/>
+->  [Parcel - Doc](https://parceljs.org/getting-started/webapp/)  
+->  [React with Parcel - Doc](https://parceljs.org/recipes/react/)    
+->  [Tailwind - Doc](https://tailwindcss.com/docs/guides/parcel)
 
 \# | Title | Topics | Assignments | Notes 
 ----|----|----|----|----
@@ -22,8 +25,3 @@ If you find this repository helpful or inspiring, please consider giving it a �
 
 
 
-->  [Parcel](https://parceljs.org/getting-started/webapp/)
-
-->  [React with Parcel](https://parceljs.org/recipes/react/)
-
-->  [Tailwind](https://tailwindcss.com/docs/guides/parcel)
