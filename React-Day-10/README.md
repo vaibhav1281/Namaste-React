@@ -1,5 +1,8 @@
 # Ep-10
 
+![RestrauntMenu](https://github.com/vaibhav1281/Namaste-React/assets/93854530/6f9573e1-9dc7-48ac-9556-95e18b29bccf)
+![Restraunt Data](https://github.com/vaibhav1281/Namaste-React/assets/93854530/c1683c6a-b60b-4390-b801-ce8594a5b708)
+
 export const SWIGGY_DAPI =
 "https://corsproxy.io/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D12.9351929%26lng%3D77.62448069999999%26is-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING";
 
