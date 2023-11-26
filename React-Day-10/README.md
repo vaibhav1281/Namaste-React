@@ -1,5 +1,7 @@
 # Ep-10
 
+![useCarousel](https://github.com/vaibhav1281/Namaste-React/assets/93854530/6626b8a2-737d-46f7-881f-6bdf34d6c1a9)
+
 ![RestrauntMenu](https://github.com/vaibhav1281/Namaste-React/assets/93854530/6f9573e1-9dc7-48ac-9556-95e18b29bccf)
 ![Restraunt Data](https://github.com/vaibhav1281/Namaste-React/assets/93854530/c1683c6a-b60b-4390-b801-ce8594a5b708)
 
